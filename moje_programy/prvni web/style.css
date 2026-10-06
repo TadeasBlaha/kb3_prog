@@ -1,0 +1,39 @@
+p {
+    color: rgb(59, 59, 59);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    text-align: center;
+} 
+
+h1 {
+    color: darkgrey;
+}
+body {
+    max-width: 800px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+    text-align: center;
+}
+img {
+    float: right;
+    margin: 1px 2px;
+    border: 1px black groove;
+    padding: 1px;
+}
+
+footer {
+    text-align: center;
+    background-color: lightgrey;
+
+}
+header {
+background-color: aliceblue;
+
+}
+
+.cerne {color: aliceblue;
+    background-color: black;}
+
+
+
+    

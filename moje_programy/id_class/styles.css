@@ -1,0 +1,42 @@
+body {
+
+    max-width: 750px;
+    margin: auto;
+}
+
+p { 
+    text-align: justify;
+   
+}
+
+.cerne {
+
+    color: aliceblue;
+    background-color: black;
+}
+img {
+width: 200px;
+padding: 11px;
+
+}
+
+.vpravo 
+{
+float: right;
+
+}
+.vlevo 
+{
+float: left;
+}
+
+.div {
+
+}
+
+footer {
+    font-size: 10px;
+    color: grey;
+    text-align: center;
+    margin-bottom: 20px;
+}
