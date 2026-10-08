@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kontakt | LUNA Restaurant</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+
+<body>
+
+<header>
+    <div class="container header-content">
+
+        <a href="index.html" class="logo">
+            LUNA
+            <span>RESTAURANT</span>
+        </a>
+
+        <nav>
+            <a href="index.html">Domů</a>
+            <a href="menu.html">Menu</a>
+            <a href="o-nas.html">O nás</a>
+            <a href="galerie.html">Galerie</a>
+            <a href="kontakt.html" class="active">Kontakt</a>
+        </nav>
+
+    </div>
+</header>
+
+
+<main>
+
+<section class="page-hero">
+
+    <div class="container center">
+
+        <p class="gold-text">KONTAKTUJTE NÁS</p>
+
+        <h1>Kontakt</h1>
+
+        <p>
+            Máte dotaz nebo si chcete rezervovat stůl?
+            Ozvěte se nám.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="section">
+
+    <div class="container contact-grid">
+
+        <div>
+
+            <p class="gold-text">KDE NÁS NAJDETE</p>
+
+            <h2>Navštivte nás.</h2>
+
+            <p>
+                <strong>LUNA Restaurant</strong><br>
+                Vinohradská 42<br>
+                120 00 Praha 2
+            </p>
+
+            <br>
+
+            <p>
+                <strong>Telefon</strong><br>
+                +420 777 123 456
+            </p>
+
+            <br>
+
+            <p>
+                <strong>E-mail</strong><br>
+                info@luna-restaurant.cz
+            </p>
+
+            <br>
+
+            <p>
+                <strong>Otevírací doba</strong><br>
+                Po–Čt: 11:00–23:00<br>
+                Pá–So: 11:00–00:00<br>
+                Ne: 12:00–22:00
+            </p>
+
+        </div>
+
+
+        <div class="reservation-box">
+
+            <p class="gold-text">REZERVACE</p>
+
+            <h2>Rezervujte si stůl</h2>
+
+            <form>
+
+                <label for="name">Jméno</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Vaše jméno"
+                    required
+                >
+
+                <label for="email">E-mail</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="vas@email.cz"
+                    required
+                >
+
+                <label for="date">Datum</label>
+                <input
+                    type="date"
+                    id="date"
+                    name="date"
+                    required
+                >
+
+                <label for="people">Počet osob</label>
+                <select id="people" name="people">
+
+                    <option>1 osoba</option>
+                    <option>2 osoby</option>
+                    <option>3 osoby</option>
+                    <option>4 osoby</option>
+                    <option>5 osob</option>
+                    <option>6 a více osob</option>
+
+                </select>
+
+                <label for="message">Poznámka</label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Například narozeniny, dětská židle..."
+                ></textarea>
+
+                <button type="submit" class="button">
+                    Odeslat rezervaci
+                </button>
+
+            </form>
+
+            <p class="form-note">
+                * Formulář je součástí školního projektu
+                a není napojen na skutečný rezervační systém.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="map-section">
+
+    <div class="container">
+
+        <p class="gold-text">MAPA</p>
+
+        <h2>Jak se k nám dostanete?</h2>
+
+        <iframe
+            src="https://www.google.com/maps?q=Vinohradská%2042%2C%20Praha&output=embed"
+            title="Mapa restaurace LUNA"
+            loading="lazy">
+        </iframe>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <div class="container footer-grid">
+
+        <div>
+            <a href="index.html" class="logo">
+                LUNA
+                <span>RESTAURANT</span>
+            </a>
+
+            <p>
+                Moderní česká kuchyně
+                s respektem k tradici.
+            </p>
+        </div>
+
+        <div>
+            <h3>Kontakt</h3>
+
+            <p>
+                Vinohradská 42<br>
+                120 00 Praha 2
+            </p>
+
+            <p>
+                +420 777 123 456<br>
+                info@luna-restaurant.cz
+            </p>
+        </div>
+
+        <div>
+            <h3>Otevírací doba</h3>
+
+            <p>
+                Po–Čt: 11:00–23:00<br>
+                Pá–So: 11:00–00:00<br>
+                Ne: 12:00–22:00
+            </p>
+        </div>
+
+        <div>
+            <h3>Stránky</h3>
+            <a href="index.html">Domů</a>
+            <a href="menu.html">Menu</a>
+            <a href="o-nas.html">O nás</a>
+            <a href="galerie.html">Galerie</a>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        © 2026 LUNA Restaurant | Školní projekt
+    </div>
+
+</footer>
+
+</body>
+</html>

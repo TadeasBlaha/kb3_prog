@@ -34,6 +34,34 @@ background-color: aliceblue;
 .cerne {color: aliceblue;
     background-color: black;}
 
+#nav {
+
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+
+#nav a {
+background-color: lightblue;
+padding: 3px;
+border-radius: 2px;
+text-decoration: none;
+border: 2px solid rgb(0, 0, 0);
+color: black;
+
+}
+
+#nav a:hover {
+    background-color: rgb(120, 251, 255);
+}
+
+img:hover {
+    width: 600px;
+    transition: 2s;
+}
+
 
 
     
