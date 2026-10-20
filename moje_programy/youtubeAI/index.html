@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CarHub – Videa pro automobilové nadšence</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topbar">
+    <span>CARHUB NETWORK</span>
+    <nav>
+      <a href="#">Komunita</a>
+      <a href="#">Živě</a>
+      <a href="#">Premium</a>
+    </nav>
+  </div>
+
+  <header class="header">
+    <a class="logo" href="#" aria-label="CarHub domů">
+      Car<span>hub</span>
+    </a>
+
+    <form class="search" action="#">
+      <input
+        type="search"
+        placeholder="Hledat auta, značky a videa"
+        aria-label="Hledat videa"
+      >
+      <button type="submit" aria-label="Vyhledat">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="10.5" cy="10.5" r="6.5"/>
+          <path d="m16 16 5 5"/>
+        </svg>
+      </button>
+    </form>
+
+    <div class="header-actions">
+      <a class="upload" href="#">↑ Nahrát</a>
+      <a class="premium" href="#">★ Premium</a>
+      <a class="login" href="#">Přihlásit se</a>
+    </div>
+  </header>
+
+  <nav class="navigation" aria-label="Hlavní navigace">
+    <a class="active" href="#">DOMŮ</a>
+    <a href="#">VIDEA</a>
+    <a href="#">KATEGORIE</a>
+    <a href="#">ZNAČKY AUT</a>
+    <a href="#">TVŮRCI</a>
+    <a href="#">KOMUNITA</a>
+    <a href="#">FOTKY</a>
+    <a href="#">ŽIVĚ <span class="live-dot"></span></a>
+  </nav>
+
+  <main class="container">
+    <section class="banner" aria-label="CarHub Premium">
+      <div>
+        <span class="eyebrow">CARHUB PREMIUM</span>
+        <h1>Víc výkonu. Víc zážitků.</h1>
+        <p>Exkluzivní testy, legendární auta a příběhy z garáže.</p>
+        <a href="#" class="button">Objevit Premium</a>
+      </div>
+      <span class="banner-number" aria-hidden="true">911</span>
+    </section>
+
+    <div class="section-top">
+      <h2>Doporučená videa pro vás</h2>
+      <label class="sort">
+        Seřadit:
+        <select aria-label="Řazení videí">
+          <option>Doporučené</option>
+          <option>Nejnovější</option>
+          <option>Nejsledovanější</option>
+        </select>
+      </label>
+    </div>
+
+    <nav class="filters" aria-label="Kategorie videí">
+      <a class="selected" href="#">Vše</a>
+      <a href="#">Supersporty</a>
+      <a href="#">JDM</a>
+      <a href="#">Drift</a>
+      <a href="#">Testy aut</a>
+      <a href="#">Tuning</a>
+      <a href="#">Klasiky</a>
+      <a href="#">Na okruhu</a>
+      <a href="#">Elektromobily</a>
+      <a href="#">Z garáže</a>
+    </nav>
+
+    <section class="video-grid" aria-label="Videa">
+      <article class="card">
+        <a class="thumbnail" href="#">
+          <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop" alt="Porsche na silnici">
+          <span class="badge">4K</span>
+          <span class="duration">18:42</span>
+          <span class="play">▶</span>
+        </a>
+        <h3><a href="#">Porsche 911 – přesně takhle má vypadat ranní projížďka</a></h3>
+        <a class="creator" href="#">FlatSix Garage <span>✓</span></a>
+        <div class="stats"><span>245 tis. zhlédnutí</span><span>98 % ♡</span></div>
+      </article>
+
+      <article class="card">
+        <a class="thumbnail" href="#">
+          <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop" alt="Sportovní vůz BMW">
+          <span class="badge">HD</span>
+          <span class="duration">12:08</span>
+          <span class="play">▶</span>
+        </a>
+        <h3><a href="#">Víkend s BMW: zvuk motoru, který se nikdy neomrzí</a></h3>
+        <a class="creator" href="#">MotorStories <span>✓</span></a>
+        <div class="stats"><span>182 tis. zhlédnutí</span><span>96 % ♡</span></div>
+      </article>
+
+      <article class="card">
+        <a class="thumbnail" href="#">
+          <img src="https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?w=800&auto=format&fit=crop" alt="Luxusní sportovní auto">
+          <span class="badge">4K</span>
+          <span class="duration">24:15</span>
+          <span class="play">▶</span>
+        </a>
+        <h3><a href="#">Moje vysněná garáž – kompletní prohlídka sbírky</a></h3>
+        <a class="creator" href="#">Dream Garage <span>✓</span></a>
+        <div class="stats"><span>1,2 mil. zhlédnutí</span><span>99 % ♡</span></div>
+      </article>
+
+      <article class="card">
+        <a class="thumbnail" href="#">
+          <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?w=800&auto=format&fit=crop" alt="Auto na otevřené silnici">
+          <span class="badge">HD</span>
+          <span class="duration">09:36</span>
+          <span class="play">▶</span>
+        </a>
+        <h3><a href="#">Jen auto a prázdná silnice. Nejlepší způsob, jak vypnout</a></h3>
+        <a class="creator" href="#">Road Life</a>
+        <div class="stats"><span>89 tis. zhlédnutí</span><span>97 % ♡</span></div>
+      </article>
+
+      <article class="card">
+        <a class="thumbnail" href="#">
+          <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?w=800&auto=format&fit=crop&sat=-100" alt="Detail sportovního vozu">
+          <span class="badge premium-badge">PREMIUM</span>
+          <span class="duration">21:07</span>
+          <span class="play">▶</span>
+        </a>
+        <h3><a href="#">Projekt z garáže: od prvního šroubku po první start</a></h3>
+        <a class="creator" href="#">Garage Project <span>✓</span></a>
+        <div class="stats"><span>324 tis. zhlédnutí</span><span>98 % ♡</span></div>
+      </article>
+
+      <article class="card">
+        <a class="thumbnail" href="#">
+          <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&auto=format&fit=crop&sat=-50" alt="Sportovní automobil">
+          <span class="badge">4K</span>
+          <span class="duration">16:54</span>
+          <span class="play">▶</span>
+        </a>
+        <h3><a href="#">Kolik stojí provoz sportovního auta? Všechna čísla</a></h3>
+        <a class="creator" href="#">Auto bez filtru</a>
+        <div class="stats"><span>156 tis. zhlédnutí</span><span>95 % ♡</span></div>
+      </article>
+
+      <article class="card">
+        <a class="thumbnail" href="#">
+          <img src="https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?w=800&auto=format&fit=crop&sat=-30" alt="Supersport">
+          <span class="badge">4K</span>
+          <span class="duration">08:29</span>
+          <span class="play">▶</span>
+        </a>
+        <h3><a href="#">Tenhle supersport zní ještě lépe, než vypadá</a></h3>
+        <a class="creator" href="#">Exhaust Club <span>✓</span></a>
+        <div class="stats"><span>678 tis. zhlédnutí</span><span>99 % ♡</span></div>
+      </article>
+
+      <article class="card">
+        <a class="thumbnail" href="#">
+          <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&auto=format&fit=crop&sat=-80" alt="Upravené BMW">
+          <span class="badge">HD</span>
+          <span class="duration">32:10</span>
+          <span class="play">▶</span>
+        </a>
+        <h3><a href="#">Tuning bez kompromisů – každý detail má svůj důvod</a></h3>
+        <a class="creator" href="#">Street Builds</a>
+        <div class="stats"><span>92 tis. zhlédnutí</span><span>96 % ♡</span></div>
+      </article>
+    </section>
+
+    <nav class="pagination" aria-label="Stránkování">
+      <a class="current" href="#">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">5</a>
+      <span>…</span>
+      <a class="next" href="#">Další ›</a>
+    </nav>
+  </main>
+
+  <footer>
+    <a class="logo" href="#">Car<span>hub</span></a>
+    <p>Místo pro všechny, kteří milují auta.</p>
+    <div>
+      <a href="#">O nás</a>
+      <a href="#">Kontakt</a>
+      <a href="#">Podmínky</a>
+      <a href="#">Soukromí</a>
+    </div>
+    <small>© 2026 CarHub</small>
+  </footer>
+</body>
+</html>
