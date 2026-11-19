@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Ověření věku</title>
+</head>
+<body>
+    <script>
+        let age;
+        while (true) {
+            age = parseInt(prompt("Zadejte svůj věk:"), 10);
+            if (age >= 0 && age <= 120) break;
+            alert("Neplatný");
+        }
+        alert("Váš věk je: " + age + " let.");
+    </script>
+</body>
+</html>

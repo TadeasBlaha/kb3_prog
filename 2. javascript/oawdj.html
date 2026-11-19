@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vyšlo GTA VI?</title>
+</head>
+<body>
+    <p id = "vysledek"></p>
+    <script>
+        let d = Number(prompt("Zadejte den"));
+        let m = Number(prompt("Zadejte mesic"));
+        let y = Number(prompt("Zadejte rok"));
+
+        if (y > 2026 || (y == 2026 && m == 12)) {
+            
+            document.getElementById("vysledek").innerHTML = "GTA vyšlo"
+        }else if (y == 2026 && m == 11 && d >= 19) {
+            document.getElementById("vysledek").innerHTML = "GTA vyšlo"
+        }else  {
+            document.getElementById("vysledek").innerHTML = "GTA nevyšlo"
+        } 
+            
+    </script>
+</body>
+</html>
